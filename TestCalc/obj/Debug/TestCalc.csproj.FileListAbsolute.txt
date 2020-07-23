@@ -1,0 +1,10 @@
+C:\Users\takut\OneDrive\Programming\C#\TestCalc\TestCalc\bin\Debug\TestCalc.exe.config
+C:\Users\takut\OneDrive\Programming\C#\TestCalc\TestCalc\bin\Debug\TestCalc.exe
+C:\Users\takut\OneDrive\Programming\C#\TestCalc\TestCalc\bin\Debug\TestCalc.pdb
+C:\Users\takut\OneDrive\Programming\C#\TestCalc\TestCalc\obj\Debug\TestCalc.csprojAssemblyReference.cache
+C:\Users\takut\OneDrive\Programming\C#\TestCalc\TestCalc\obj\Debug\TestCalc.CalcForm.resources
+C:\Users\takut\OneDrive\Programming\C#\TestCalc\TestCalc\obj\Debug\TestCalc.Properties.Resources.resources
+C:\Users\takut\OneDrive\Programming\C#\TestCalc\TestCalc\obj\Debug\TestCalc.csproj.GenerateResource.cache
+C:\Users\takut\OneDrive\Programming\C#\TestCalc\TestCalc\obj\Debug\TestCalc.csproj.CoreCompileInputs.cache
+C:\Users\takut\OneDrive\Programming\C#\TestCalc\TestCalc\obj\Debug\TestCalc.exe
+C:\Users\takut\OneDrive\Programming\C#\TestCalc\TestCalc\obj\Debug\TestCalc.pdb

@@ -1,0 +1,1018 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 40</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>点数</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 40</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>平均</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="Ja_MeBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="Ja_MeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 120</value>
+  </data>
+  <data name="Ja_MeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="Ja_MeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Ja_MeBox.Name" xml:space="preserve">
+    <value>Ja_MeBox</value>
+  </data>
+  <data name="&gt;&gt;Ja_MeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ja_MeBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ja_MeBox.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="Ja_AverBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="Ja_AverBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 120</value>
+  </data>
+  <data name="Ja_AverBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="Ja_AverBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Ja_AverBox.Name" xml:space="preserve">
+    <value>Ja_AverBox</value>
+  </data>
+  <data name="&gt;&gt;Ja_AverBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ja_AverBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ja_AverBox.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 12pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 32</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 30</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>偏差値</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Ja_PRText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 12pt, style=Bold</value>
+  </data>
+  <data name="Ja_PRText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 115</value>
+  </data>
+  <data name="Ja_PRText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 30</value>
+  </data>
+  <data name="Ja_PRText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Ja_PRText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Ja_PRText.Name" xml:space="preserve">
+    <value>Ja_PRText</value>
+  </data>
+  <data name="&gt;&gt;Ja_PRText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ja_PRText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ja_PRText.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 124</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>国語</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Ma_MeBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="Ma_MeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 160</value>
+  </data>
+  <data name="Ma_MeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="Ma_MeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Ma_MeBox.Name" xml:space="preserve">
+    <value>Ma_MeBox</value>
+  </data>
+  <data name="&gt;&gt;Ma_MeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ma_MeBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ma_MeBox.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Ma_AverBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="Ma_AverBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 160</value>
+  </data>
+  <data name="Ma_AverBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="Ma_AverBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Ma_AverBox.Name" xml:space="preserve">
+    <value>Ma_AverBox</value>
+  </data>
+  <data name="&gt;&gt;Ma_AverBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ma_AverBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ma_AverBox.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 163</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>数学</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Sc_MeBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="Sc_MeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 200</value>
+  </data>
+  <data name="Sc_MeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="Sc_MeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Sc_MeBox.Name" xml:space="preserve">
+    <value>Sc_MeBox</value>
+  </data>
+  <data name="&gt;&gt;Sc_MeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sc_MeBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sc_MeBox.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Sc_AverBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="Sc_AverBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 200</value>
+  </data>
+  <data name="Sc_AverBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="Sc_AverBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Sc_AverBox.Name" xml:space="preserve">
+    <value>Sc_AverBox</value>
+  </data>
+  <data name="&gt;&gt;Sc_AverBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sc_AverBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sc_AverBox.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 202</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>理科</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="So_MeBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="So_MeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 240</value>
+  </data>
+  <data name="So_MeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="So_MeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;So_MeBox.Name" xml:space="preserve">
+    <value>So_MeBox</value>
+  </data>
+  <data name="&gt;&gt;So_MeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;So_MeBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;So_MeBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="So_AverBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="So_AverBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 240</value>
+  </data>
+  <data name="So_AverBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="So_AverBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;So_AverBox.Name" xml:space="preserve">
+    <value>So_AverBox</value>
+  </data>
+  <data name="&gt;&gt;So_AverBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;So_AverBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;So_AverBox.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 241</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>社会</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="En_MeBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="En_MeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 80</value>
+  </data>
+  <data name="En_MeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="En_MeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;En_MeBox.Name" xml:space="preserve">
+    <value>En_MeBox</value>
+  </data>
+  <data name="&gt;&gt;En_MeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;En_MeBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;En_MeBox.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="En_AverBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="En_AverBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 80</value>
+  </data>
+  <data name="En_AverBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="En_AverBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;En_AverBox.Name" xml:space="preserve">
+    <value>En_AverBox</value>
+  </data>
+  <data name="&gt;&gt;En_AverBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;En_AverBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;En_AverBox.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 85</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>英語</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 12pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 278</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 30</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="En_PRText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 12pt, style=Bold</value>
+  </data>
+  <data name="En_PRText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 75</value>
+  </data>
+  <data name="En_PRText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 30</value>
+  </data>
+  <data name="En_PRText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="En_PRText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;En_PRText.Name" xml:space="preserve">
+    <value>En_PRText</value>
+  </data>
+  <data name="&gt;&gt;En_PRText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;En_PRText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;En_PRText.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Ma_PRText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 12pt, style=Bold</value>
+  </data>
+  <data name="Ma_PRText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 155</value>
+  </data>
+  <data name="Ma_PRText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 30</value>
+  </data>
+  <data name="Ma_PRText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Ma_PRText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Ma_PRText.Name" xml:space="preserve">
+    <value>Ma_PRText</value>
+  </data>
+  <data name="&gt;&gt;Ma_PRText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ma_PRText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ma_PRText.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Sc_PRText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 12pt, style=Bold</value>
+  </data>
+  <data name="Sc_PRText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 195</value>
+  </data>
+  <data name="Sc_PRText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 30</value>
+  </data>
+  <data name="Sc_PRText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Sc_PRText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Sc_PRText.Name" xml:space="preserve">
+    <value>Sc_PRText</value>
+  </data>
+  <data name="&gt;&gt;Sc_PRText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sc_PRText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sc_PRText.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="So_PRText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 12pt, style=Bold</value>
+  </data>
+  <data name="So_PRText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 235</value>
+  </data>
+  <data name="So_PRText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 30</value>
+  </data>
+  <data name="So_PRText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="So_PRText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;So_PRText.Name" xml:space="preserve">
+    <value>So_PRText</value>
+  </data>
+  <data name="&gt;&gt;So_PRText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;So_PRText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;So_PRText.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Total_MeText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 12pt, style=Bold</value>
+  </data>
+  <data name="Total_MeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 278</value>
+  </data>
+  <data name="Total_MeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 30</value>
+  </data>
+  <data name="Total_MeText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Total_MeText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Total_MeText.Name" xml:space="preserve">
+    <value>Total_MeText</value>
+  </data>
+  <data name="&gt;&gt;Total_MeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Total_MeText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Total_MeText.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 12pt, style=Bold</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 278</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 30</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>テスト</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Total_AverText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 12pt, style=Bold</value>
+  </data>
+  <data name="Total_AverText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 278</value>
+  </data>
+  <data name="Total_AverText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 30</value>
+  </data>
+  <data name="Total_AverText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Total_AverText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Total_AverText.Name" xml:space="preserve">
+    <value>Total_AverText</value>
+  </data>
+  <data name="&gt;&gt;Total_AverText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Total_AverText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Total_AverText.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 311</value>
+  </data>
+  <data name="Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 53</value>
+  </data>
+  <data name="Button.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Button.Text" xml:space="preserve">
+    <value>計算する</value>
+  </data>
+  <data name="&gt;&gt;Button.Name" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Ver.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Ver.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="Ver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 378</value>
+  </data>
+  <data name="Ver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="Ver.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Ver.Text" xml:space="preserve">
+    <value>Ver2.0.0-R   By #NEKO</value>
+  </data>
+  <data name="&gt;&gt;Ver.Name" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="&gt;&gt;Ver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ver.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ver.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 411</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 22</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>使い方はテキストファイルを見てください。</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Exit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 8.25pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Exit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 311</value>
+  </data>
+  <data name="Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 53</value>
+  </data>
+  <data name="Exit.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Exit.Text" xml:space="preserve">
+    <value>閉じる(&amp;C)</value>
+  </data>
+  <data name="&gt;&gt;Exit.Name" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;Exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Exit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Exit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 18</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>661, 498</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>テストの結果計算</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CalcForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
